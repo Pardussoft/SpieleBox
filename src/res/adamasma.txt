@@ -1,0 +1,8 @@
+(Es ist ein Frucht...)
+Apfel Banane Kirsche Orange Mango Mandeline Grapefruit Melone
+(Es ist ein Autoteil...)
+Reifen Zylinder Auspuff Kofferraum Lenkrad Motorhaube Motor
+(Es ist ein Computerteil...)
+Netzgerät Festplatte Diskette Grafikkarte Monitor Tastatur Maus
+(Es ist ein Möbelstück...)
+Sofa Bett Couch Stuhl Esstisch

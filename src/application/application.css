@@ -1,0 +1,120 @@
+
+.root {
+     -fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+}
+
+
+
+
+.label-header {
+    -fx-font-size: 32pt;
+    -fx-font-family: "Edwardian Script ITC";
+    -fx-text-fill: #303030;
+    -fx-opacity: 1;
+}
+
+
+.button {
+    -fx-padding: 10;   
+    -fx-border-color: #e2e2e2;
+    -fx-border-width: 0.4;
+    -fx-background-radius: 4;
+     -fx-border-radius: 4;
+    -fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 14pt;
+    -fx-text-fill: #d8d8d8;
+     -fx-font-weight: bold;
+   
+}
+.button:pressed{
+  -fx-background-color: 
+        #090a0c,
+        linear-gradient(#48424b 0%, #2f2429 20%, #291d22 100%),
+        linear-gradient(#46262b, #291d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(144,131,148,0.9), rgba(255,255,255,0));
+  -fx-text-fill: #999999;
+   -fx-font-size: 14pt;
+   -fx-font-weight: bold;
+}
+
+.button:focused{
+  -fx-background-color: 
+        #090a0c,
+        linear-gradient(#48424b 0%, #2f2429 20%, #291d22 100%),
+        linear-gradient(#46262b, #291d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(144,131,148,0.9), rgba(255,255,255,0));
+  -fx-text-fill: #999999;
+   -fx-font-size: 14pt;
+   -fx-font-weight: bold;
+}
+
+
+.toggle-button {
+    -fx-padding: 5 22 5 22;   
+    -fx-border-color: #e2e2e2;
+    -fx-border-width: 0.4;
+    -fx-background-radius: 4;
+     -fx-border-radius: 4;
+    -fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 14pt;
+    -fx-text-fill: #d8d8d8;
+     -fx-font-weight: bold;
+   
+}
+.toggle-button:selected  {
+    -fx-padding: 5 22 5 22;   
+    -fx-border-color: #e2e2e2;
+    -fx-border-width: 0.4;
+    -fx-background-radius: 4;
+     -fx-border-radius: 4;
+    -fx-background-color: 
+        #090a0c,
+        linear-gradient(#98424b 0%, #5f2429 20%, #591d22 100%),
+        linear-gradient(#60262b, #591d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(200,131,148,0.9), rgba(255,255,255,0));
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 14pt;
+    -fx-text-fill: #d8d8d8;
+     -fx-font-weight: bold;
+   
+}
+.toggle-button:pressed{
+  -fx-background-color: 
+        #090a0c,
+        linear-gradient(#48424b 0%, #2f2429 20%, #291d22 100%),
+        linear-gradient(#46262b, #291d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(144,131,148,0.9), rgba(255,255,255,0));
+  -fx-text-fill: #999999;
+   -fx-font-size: 14pt;
+   -fx-font-weight: bold;
+}
+
+.label {
+    -fx-font-family: "Arial Rounded MT Bold";
+   	-fx-font-size: 28px;
+   -fx-font-weight: bold;
+   -fx-fill: #ffffff;
+ /*  -fx-effect: dropshadow( gaussian , rgba(0,255,255,0.5) , 3,0.4,0,0.3 );*/ 
+    -fx-padding: 10 10 10 10;   
+   
+    -fx-background-radius: 20;
+    -fx-background-color: rgba( 1, 0, 0, 0.3 );
+    -fx-text-fill: #d8d8d8;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+
